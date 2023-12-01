@@ -1,0 +1,19 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 30px 30px;
+}
+
+.calculator > div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.calculator p {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: red;
+}
