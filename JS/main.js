@@ -13,9 +13,9 @@ function errorHandler (msg){
 
 submit.addEventListener("click", () => {
     if (height.value === "" || weight.value === "") {
-        errorHandler("empty box")
+        errorHandler("Empty Box")
     } else if (!Number(height.value) || !Number(weight.value)) {
-        errorHandler("this is a string")
+        errorHandler("Please, Insert only numbers!")
     } else {
         let h = Number(height.value)
         let w = Number(weight.value)
