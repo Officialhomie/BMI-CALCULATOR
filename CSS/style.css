@@ -123,9 +123,10 @@ body {
     .calculator {
         gap: 30px;
         padding: 40px 30px;
-        width: 50%;
-        top: 16%;
-        right: 25%;
+        width: 55%;
+        top: 14%;
+        right: 23%;
+        height: 75vh;
     }
     .calculator .inp {
         display: flex;
@@ -144,9 +145,9 @@ body {
     .calculator {
         gap: 30px;
         padding: 40px 30px;
-        width: 60%;
-        top: 15%;
-        right: 20%;
+        width: 80%;
+        top: 12%;
+        right: 11%;
     }
     .calculator .inp {
         display: flex;
@@ -162,9 +163,9 @@ body {
     .calculator {
         gap: 30px;
         padding: 40px 30px;
-        width: 70%;
-        top: 15%;
-        right: 15%;
+        width: 90%;
+        top: 12%;
+        right: 5%;
     }
     .calculator .inp {
         gap: 40px;
@@ -176,13 +177,16 @@ body {
 
 @media screen and (max-width: 480px) {
     .calculator {
-        width: 85%;
-        right: 8%;
+        width: 90%;
+        right: 5%;
+        top: 10%;
+        height: 80%;
+
     }
     .calculator .inp {
         gap: 40px;
     }
     .inp > div {
-        gap: 45px;
+        gap: 40px;
     }
 }
