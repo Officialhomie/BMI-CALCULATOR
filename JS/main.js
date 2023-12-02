@@ -1,7 +1,6 @@
 const height = document.querySelector(".height");
 const weight = document.querySelector(".weight");
 const submit = document.querySelector(".submit");
-// const reset = document.querySelector(".reset");
 const error = document.querySelector(".error");
 const ans = document.querySelector(".ans");
 

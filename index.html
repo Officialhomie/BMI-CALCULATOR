@@ -9,17 +9,28 @@
 <body>
     <div class="calculator">
         <p class="error"></p>
-        <div>
-            <input class="height" placeholder="Height in cm" type="text">
-            <input class="weight" placeholder="Weight in kg" type="text">
+        <div class="inp">
+            <div>
+                <p>HEIGHT: </p>
+                <input class="height" placeholder="Height in cm" type="text">
+            </div>
+
+            <div>
+                <p>WEIGHT: </p>
+                <input class="weight" placeholder="Weight in kg" type="text">
+            </div>
         </div>
     
-        <div>
+        <div class="btn">
             <button class="submit">Submit</button>
             <button class="reset">Reset</button>
         </div>
 
-        <p class="ans"></p>
+        <div class="result">
+            <h4>RESULT: </h4>
+            <p class="ans"></p>
+        </div>
+            
     </div>
 
     <script src="/JS/main.js"></script>
