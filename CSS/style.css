@@ -13,17 +13,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
     padding: 40px 30px;
     background-color: #61E010;
-    width: 35%;
+    width: 40%;
     position: absolute;
-    top: 20%;
+    top: 15%;
     right: 30%;
     border-radius: 30px;
-    height: 70%;
+    height: 75%;
     border: 3px solid black;
     box-shadow: 0 15px 25px 0 #000;
+}
+
+.calculator H1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.calculator h1 span {
+    color: #fff;
+    font-size: 40px;
 }
 
 .calculator .inp {
