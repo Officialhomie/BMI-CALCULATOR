@@ -126,7 +126,7 @@ body {
         width: 55%;
         top: 14%;
         right: 23%;
-        height: 75vh;
+        height: 75%;
     }
     .calculator .inp {
         display: flex;
@@ -179,9 +179,8 @@ body {
     .calculator {
         width: 90%;
         right: 5%;
-        top: 10%;
-        height: 80%;
-
+        top: 5%;
+        height: 85%;
     }
     .calculator .inp {
         gap: 40px;
@@ -189,4 +188,27 @@ body {
     .inp > div {
         gap: 40px;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .calculator {
+        gap: 10px;
+        height: 80%;
+    }
+    .calculator h1 {
+        font-size: 25px;
+    }
+    .calculator h1 span {
+        font-size: 25px;
+    }
+    .inp > div {
+        gap: 30px;
+    }
+    .inp > div p {
+        font-size: 20px;
+    }
+    .inp > div input {
+        padding: 5px 10px;
+    }
+
 }
